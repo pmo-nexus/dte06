@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  * a {
+    text-decoration: none;
+  }
+  * li {
+    list-style: none;
+  }
+  .logo {
+    list-style: none;
+  }
+  .contain-bg {
+    min-height: 120vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    background-image: url("img/DTEE.jfif");
+    background-size: cover;
+    background-position: center;
+  }
+  .navBar {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 15vh;
+  }
+  .navBar ul {
+    display: flex;
+    align-items: center;
+  }
+  .navBar ul li {
+    padding: 0 25px;
+  }
+  .navBar ul li a {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .navBar .logo a {
+    font-size: 2.3rem;
+    color: #fff;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+  .phuket {
+    color: #fff;
+    padding: 25px;
+  }
+  .card-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  .card-box h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .card-box .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 90%;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .box1 {
+    background-image: url(img/Home.jpg)
+  }
+  .box2 {
+    background-image: url(img/Video.jpg)
+  }
+  .box3 {
+    background-image: url(img/Image.jpg)
+  }
+  .box4 {
+    background-image: url(img/Contact.jpg)
+  }
+  .phuket h2 {
+    font-size: 2rem;
+    letter-spacing: 2.8px;
+  }
+  .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .txt h1 {
+    font-size: 5rem;
+    
+  }
+  .phuket p {
+    opacity: 0.4;
+  }
+  .tnx h2 i {
+    color: #fd7e13;
+  }
+  .card-box div {
+    transition: 0.5s;
+  }
+  .card-box div:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    
+  }
+
+  .home {
+    color: #fff;
+  }
+
+.travel-bg div {
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  display: grid;
+
+}
+
+.contain-travel {
+  width: 950px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(4,1fr);
+  
+
+
+}
+
+.contain-travel div {
+  display: grid;
+  flex-direction: column;
+
+}
+
+.card-text {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.card-text:hover {
+color: blue;
+scale: 1.05;
+transition: 0.5s;
+}
+
+.travel-detail img {
+  width: 248px;
+  height: 204px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+
+.travel-detail {
+  background: none;
+}
+
+.link-detail {
+  background-color:rgb(255,255,255,0.5);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  font-size: larger;
+  
+}
+
+.link-detail:hover {
+  transition: 0.5s;
+  color: grey;
+  scale: 1.05;
+}
+
+.travel-detail {
+  width: 100px;
+  
+}
+
+.page-iframe {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+
+}
+
+.img-contact {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+  
+}
