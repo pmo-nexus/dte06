@@ -39,7 +39,7 @@
   position: absolute;
   z-index: -1;
   filter: brightness(45%);
-  background-image: url("img/DTEE.jfif");
+  background-image: url("img/DTEE.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -327,3 +327,4 @@
     font-size: 2rem;
   }
 }
+
